@@ -1,5 +1,3 @@
-
-
 void main() {
   // print function is a inbuild function to print message on the console
   // print("hello world");
@@ -50,7 +48,6 @@ void main() {
   // print(is_true.runtimeType);
   // print(anything.runtimeType);
 
-
 // #conditional expression
 //   var is_login = false;
 //   var user = is_login ? 'suraj' : 'Guest' ;
@@ -69,9 +66,9 @@ void main() {
 
   // //# row String
   // String s3 = r'this is a specal string \n for me';
-  // print(s3); 
+  // print(s3);
 
-  // list 
+  // list
 //   var val = ['suraj','raj',1,1.02];
 //   val.add(true);
 //   print(val);
@@ -87,8 +84,7 @@ void main() {
 //   vals3[0]="raj";
 //   print(vals3.runtimeType);
 
-
-// ##inserting list into another list 
+// ##inserting list into another list
 //spread Operator
   // var women = ["sonam",'madhavi','shreya','aditi'];
   // var men = ['roy','suraj','kartik','shantanu'];
@@ -99,21 +95,35 @@ void main() {
   // var people = ['Gabber',...men,...women];
   // print(people);
 
-  // #Sets 
-  var st = {'suraj',true,1,'shreya','shantanu','kartik'};
-  print(st);
-  print(st.runtimeType);
+  // #Sets
+  // var st = {'suraj',true,1,'shreya','shantanu','kartik'};
+  // print(st);
+  // print(st.runtimeType);
 
-  Set st_1 = {};
-  print(st_1); 
-  print(st_1.runtimeType); 
+  // Set st_1 = {};
+  // print(st_1);
+  // print(st_1.runtimeType);
 
-  // for empty set 
-  var set_11 = <int>{};
-  print(set_11);
-  print(set_11.runtimeType);
+  // // for empty set
+  // var set_11 = <int>{};
+  // print(set_11);
+  // print(set_11.runtimeType);
 
-  var set_12 = {}; //it's not a set , it's map
-  print(set_12);
-  print(set_12.runtimeType);
+  // var set_12 = {}; //it's not a set , it's map
+  // print(set_12);
+  // print(set_12.runtimeType);
+
+  // Maps
+  // var address = <String,String>{
+  //   'first':'chandrapur',
+  //   'second':'pune',
+  //   'third':'mumbai',
+  //   'fourth':'up'
+  // };
+  // print(address);
+  // print(address.runtimeType);
+
+  // var addr = Map();
+  // print(addr);
+  // print(addr.runtimeType);
 }

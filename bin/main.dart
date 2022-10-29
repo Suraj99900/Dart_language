@@ -98,6 +98,22 @@ void main() {
 
   // var people = ['Gabber',...men,...women];
   // print(people);
-  
 
+  // #Sets 
+  var st = {'suraj',true,1,'shreya','shantanu','kartik'};
+  print(st);
+  print(st.runtimeType);
+
+  Set st_1 = {};
+  print(st_1); 
+  print(st_1.runtimeType); 
+
+  // for empty set 
+  var set_11 = <int>{};
+  print(set_11);
+  print(set_11.runtimeType);
+
+  var set_12 = {}; //it's not a set , it's map
+  print(set_12);
+  print(set_12.runtimeType);
 }
